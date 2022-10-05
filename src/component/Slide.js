@@ -9,7 +9,7 @@ function Slide(){
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://www.centralengland.coop/assets/images/carousel/food1.jpg" class="image" alt="..."/>
+      <img src="https://static.wixstatic.com/media/b1081b44801546e0b25bb0261591fb76.jpg/v1/crop/x_0,y_1046,w_5760,h_1749/fill/w_1848,h_561,al_c,q_85,usm_0.66_1.00_0.01/b1081b44801546e0b25bb0261591fb76.jpg" class="image" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
