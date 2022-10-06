@@ -40,7 +40,10 @@
     position: relative;
 
   }
- 
+ .title{
+  justify-content: space-between;
+
+ }
   .menu-item-heading{
     display: flex;
     justify-content: space-between;
@@ -69,8 +72,8 @@
     position: relative;
     justify-content: center;
     color: white;
-    background-color: rgb(247, 99, 46);
-    border-color: orangered;
+    background-color: rgb(248, 78, 16);
+    border-color: rgb(248, 78, 16);
     font-size: 18px;
     border-radius: 1.0rem ;
     margin-left: 60%;

@@ -1,12 +1,13 @@
+import "./Navigate.css"
 function Navigation(){
     return (
     <> 
         <nav className="navbar navbar-dark  bg-danger fixed-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">REACTMEALS APP</a>
-                <div className="d-flex " >
+                <div className="cart" >
                     <span className="text-white">Carrito </span>
-                    <span className="badge bg-danger">1</span>
+                    <span className="ms-3 badge bg-danger">1</span>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span className="navbar-toggler-icon"></span>
