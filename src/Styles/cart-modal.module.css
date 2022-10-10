@@ -1,0 +1,98 @@
+.cart-modal {
+  min-width: 50vw;
+  height: 30vw;
+  list-style-type: none;
+  padding: 0;
+  overflow-y: scroll;
+}
+.image{
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin:1em 1em ;
+  padding: 5px 5px ;
+  position: relative;
+}
+
+.cart-modal > li {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #b71c1c;
+}
+
+.cart-modal > li:last-child {
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cart-modal > li:last-child > * {
+  margin-left: 15px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.cart-item > article:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.cart-item>article>button{
+  font-size: 32px;
+  font-weight: bold;
+  width: 3rem;
+  border: none;
+  margin-right: 1rem;
+}
+
+.cart-item > article:nth-child(1) > h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.cart-item > article:nth-child(1) > div {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item > article:nth-child(1) > div > h4 {
+  color: #e53935;
+  margin: 0;
+}
+
+.cart-item > article:nth-child(1) > div > figure {
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.3);
+  margin: 0;
+  margin-left: 20px;
+}
+
+.cart-item > article:nth-child(1) > div > figure > h4 {
+  margin: 0;
+}
+
+.cart-item > article:nth-child(2) > * {
+  margin-left: 10px;
+}
+.total{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+  
+    
+}
+.total>h3{
+  margin-left: 2rem;
+  color: #b71c1c;
+}

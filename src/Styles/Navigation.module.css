@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+.navbar {
+    height: 80px;
+    background-color: #e53935;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    color: white;
+  }
+ 
+  .figure {
+    background-color: #ffc1a9;
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+	
+  }
+  .figure:hover{
+	  cursor: pointer;
+  }
+  .figure > small {
+    background-color: #f82a26;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }

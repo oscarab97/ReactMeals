@@ -1,0 +1,25 @@
+.fondo{
+    border-radius: 3rem;
+    margin: 5% 5%;
+    height: 30rem;
+}
+
+
+.image{
+    margin-left: 25%;
+    width: 600px;
+    height: 500px;
+}
+.myButton{
+    margin-top: 3rem;
+    font-size: 20px;
+    height: 4rem;
+    width: 15rem;
+    border-color: transparent;
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+    margin-left: 42%;
+}
+.myButton:hover{
+    background-color: rgb(237, 171, 16);
+}

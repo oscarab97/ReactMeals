@@ -1,7 +1,13 @@
+import styles from '../Styles/NotFound.module.css'
 function NotFound () {
-   return( <div>
-        <h1>Hola</h1>
-    </div>
+   return( 
+      <div className={styles.fondo}>
+        
+         <div>
+            <img src="https://invictos-store.oncartx.io/themes/blitz/assets/not-found.png" className={styles.image} />
+
+         </div>
+      </div>
    )
 }
 export default NotFound

@@ -33,6 +33,10 @@ function reducer(state, action) {
 			item.quantity += quantity;
 			return { ...state, cart: [...state.cart] };
 
+		case actions.EMPTY_CART:
+			
+			return { ...state, cart: [] };
+
 		case actions.OPEN_MODAL:
 			return {
 				...state,
