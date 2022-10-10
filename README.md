@@ -1,3 +1,13 @@
+# Integrantes
+
+ Oscar Alvarez Barroso
+ 
+ Daniel Alejandro Uribe Lira
+ 
+ Adrian Ignacio Cano
+ 
+ Oscar Daniel Alcantara
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
